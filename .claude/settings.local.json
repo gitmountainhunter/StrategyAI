@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(mkdir:*)",
+      "Bash(unzip:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(pkill:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(lsof:*)",
+      "Bash(npm run lint)",
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(npm audit)",
+      "Bash(API_KEY=\"slb_sk_a8f4e2b9c7d1f3a5e8b2c4d6f1a3e5b7c9d2f4a6e8b1c3d5f7a9e2b4c6d8f1a3\":*)",
+      "Bash(for:*)",
+      "Bash(do echo \"Request $i:\")",
+      "Bash(done)",
+      "Bash(chmod:*)",
+      "Bash(bash test-rate-limit.sh:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
